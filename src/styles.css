@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Geist', system-ui, sans-serif;
+  --font-mono: 'Geist Mono', ui-monospace, monospace;
+}
+
+@keyframes shimmer {
+  from { background-position: -200px 0; }
+  to { background-position: 200px 0; }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, #EFEEEB 0, #F7F6F4 50%, #EFEEEB 100%) 0 0 / 400px 100%;
+  animation: shimmer 1.3s linear infinite;
+}

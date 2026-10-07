@@ -1,0 +1,23 @@
+{
+  "name": "website-favicon-finder",
+  "version": "1.4.0",
+  "description": "A Chrome extension to find and download all favicons of the current tab",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.13",
+    "@types/chrome": "^0.0.246",
+    "@vitejs/plugin-react": "^4.0.3",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.12",
+    "vite": "^4.4.5"
+  }
+}
